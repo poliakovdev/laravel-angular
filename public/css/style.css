@@ -1,0 +1,37 @@
+h1{
+	text-align: center;
+}
+.input-item{
+	border-color: #EEEEEE;
+	margin-left: 50px;
+	padding-left: 10px;
+}
+#current-text{
+	height: 25px;
+	margin: 0 0 0 50px;	
+}
+button{
+	background-color: #00BDD9;
+	border-radius: 17px;
+	border: none;
+	color: #fff;
+	height: 34px;
+	margin-left: 50px;
+	width: 100px;
+}
+ul{
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	display: block;
+	margin-left: 50px;		
+	padding: 0;
+	width: 140px;
+}
+
+li{
+	background-color: #3F3F3F;
+	border-bottom: 1px solid black;
+	color: #fff;
+	list-style: none;
+	padding: 10px;
+}

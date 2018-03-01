@@ -1,0 +1,12 @@
+<h1>Items</h1>
+<input type="text" name="insertText" ng-model="itemText" ng-keyup="$event.keyCode == 13 && insertItem()" placeholder="text" class="input-item">				
+
+<p id="current-text"></p>
+<button name="toggle" value="toggle" onclick="">BUTTON</button>
+
+<ul id="list">		
+	<li ng-repeat="item in items" onclick="showSelectedItem(this);">Item <% item.id %><input type="hidden" value="<% item.item %>">
+	</li>
+</ul>
+
+	
